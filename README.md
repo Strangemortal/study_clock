@@ -4,7 +4,7 @@
 
 ## 🔗 Live Demo
 
-[Click here to use Study Clock]([https://strangemortal.github.io/study_clock/](https://study0timer.netlify.app/))
+[Click here to use Study Clock](https://study0timer.netlify.app/)
 
 ## 💡 Features
 
