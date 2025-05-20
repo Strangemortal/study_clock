@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="realtime-clock"></div>
+
+  <div class="container">
+    <h1>Study Timer</h1>
+    <div class="mode-switch">
+        <label>
+          <input type="checkbox" id="modeToggle" onchange="switchMode()">
+          🔥 Use Candle Mode
+        </label>
+      </div>
+      
+    
+    <div class="timer-controls">
+        <div class="inputs">
+          <input type="number" id="minutes" placeholder="Minutes" min="0">
+          <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+        </div>
+        <div class="buttons">
+          <button onclick="startTimer()">Start</button>
+          <button onclick="resetTimer()">Reset</button>
+        </div>
+      </div>
+    <div class="display">
+        <div class="big-timer" id="countdown">00:00</div>
+        <img id="ice-img" src="images/ezgif-frame-000.png" alt="Melting Ice" width="300">
+      </div>
+      
+    
+
+
+  <script src="script.js"></script>
+</body>
+</html>
